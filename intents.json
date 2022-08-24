@@ -1,0 +1,64 @@
+{"intents": 
+ [
+	{
+		"tag": "Saludo",
+		"patterns": ["Hola", "Aló", "Buenos días", "Buenas tardes", "Buenas noches", "¿Hay alguien ahí?", "Hey"],
+		"responses": ["Hola.", "Hola, gracias por preguntar.", "Que bueno verle otra vez.", "Buenas, ¿que tal?.", "Hola, ¿como puedo ayudarle?"],
+		"context": [""]
+	},
+	{
+		"tag": "Despedida",
+		"patterns": ["Adiós", "Hasta luego", "Hasta otra", "Chao", "Hasta la próxima", "Que bien hablar contigo, adiós"],
+		"responses": ["Nos vemos.", "Tenga un buen dia.", "Adios, ¡regrese pronto!"],
+		"context": [""]
+	},
+	{
+		"tag": "Gracias",
+		"patterns": ["Gracias", "Muchas gracias", "Gracias por ayudarme"],
+		"responses": ["Me alegra haberle ayudado.", "No hay de que.", "De nada."],
+		"context": [""]
+	},
+	{
+		"tag": "SinRespuesta",
+		"patterns": [],
+		"responses": ["Disculpe no le he entendido.", "Por favor deme mas información.", "No estoy seguro de entenderle."],
+		"context": [""]
+	},
+	{
+		"tag": "Funcion",
+		"patterns": ["¿Cómo puedes ayudarme?", "¿Cuál es tu función?", "¿Qué puedes hacer?", "¿En qué eres útil?", "¿De qué te encargas?"],
+		"responses": ["Me encargo de ayudarle con los problemas que tenga con respecto al proveedor de internet.", "Le ayudo en caso de que tenga problemas con el internet."],
+		"context": [""]
+	},
+	{
+		"tag": "ProblemasVelocidad",
+		"patterns": ["Va muy lento mi internet ¿qué hago?", "La velocidad de mi internet ha empeorado", "Mi internet se desconecta muchas veces", "Los sitios web que visito no cargan o van muy lento"],
+		"responses": ["Pruebe desconectando su router y vuelvalo a conectar.", "Trate de comunicarse al siguiente numero para que revisen presencialmente su conexion a internet: 0989051875."],
+		"context": [""]
+	},
+	{
+		"tag": "Pago",
+		"patterns": ["Pagaré el mensual de mi internet", "Quiero pagar el internet", "Voy a pagar el servicio de internet"],
+		"responses": ["Lo redireccionare a la pagina de pago, espere un momento..."],
+		"context": [""]
+	},
+	{
+		"tag": "Planes",
+		"patterns": ["¿Qué planes ofrecen?", "¿Cuáles son los planes del servicio de internet?", "¿Qué planes tiene disponible?"],
+		"responses": ["Los planes (mensuales) que ofrecemos son los siguientes: 20 Mb/s a 10$, 30 Mb/s a 15$, 40 Mb/s a 20$, 50 Mb/s a 25$, 60 Mb/s a 30$, 100 Mb/s a 50$, y 200 Mb a 150$."],
+		"context": [""]
+	},
+	{
+		"tag": "Promociones",
+		"patterns": ["¿Qué promociones hay actualmente?", "¿Qué promociones se encuentran disponibles?", "¿Cuáles promociones hay?"],
+		"responses": ["Actualmente tenemos dos promociones: 1. Si contrata el servicio de internet de 100 Mb/s por un año, el precio total se reducira a $450. 2. Si contrata el servicio de internet de 200 Mb/s por un año, el precio total se reducira a $680."],
+		"context": [""]
+	},
+	{
+		"tag": "Cobertura",
+		"patterns": ["¿Qué cobertura tienen sus routers?", "¿Qué cobertura tienen sus modem?", "¿Qué cobertura tiene la red wifi?"],
+		"responses": ["Nuestros router tienen una buena cobertura, la cual es de hasta 20 metros."],
+		"context": [""]
+	}
+ ]
+}
