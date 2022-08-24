@@ -59,6 +59,18 @@
 		"patterns": ["¿Qué cobertura tienen sus routers?", "¿Qué cobertura tienen sus modem?", "¿Qué cobertura tiene la red wifi?"],
 		"responses": ["Nuestros router tienen una buena cobertura, la cual es de hasta 20 metros."],
 		"context": [""]
+	},
+	 {
+		"tag": "Velocidad",
+		"patterns": ["¿Qué velocidad tiene mi internet?", "¿Qué plan de internet tengo?"],
+		"responses": ["¿Cuánto paga usted al mes?"],
+		"context": [""]
+	},
+	{
+		"tag": "VelocidadInternet",
+		"patterns": ["¿Cuál es la velocidad de mi internet?", "¿Qué rapidez tiene mi internet?", "¿Cuán rápido va mi internet?"],
+		"responses": ["Su velocidad de internet es: 30 Mb/s"],
+		"context": [""]
 	}
  ]
 }
